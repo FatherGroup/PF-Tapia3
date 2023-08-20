@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!-- STYLES CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Genos:wght@400;700;900&family=Koulen&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ANIMATED -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- ICONO PESTAÑA -->
+    <link rel="shortcut icon" href="https://i.ibb.co/7nxLYnR/mvlogo-transformed.png" type="image/x-icon" />
+    <title>contactanos</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div>
+            <a href="../index.html"
+              ><img
+                class="logo animate__animated animate__fadeIn"
+                src="https://i.ibb.co/7nxLYnR/mvlogo-transformed.png"
+                width="60rem"
+                alt="logo web"
+            /></a>
+          </div>
+          <input type="checkbox" id="check" />
+          <label for="check" class="mostrar-menu">&#8801;</label>
+
+          <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../pages/about.html">Sobre Nosotros</a></li>
+            <li><a href="../pages/services.html">Servicios</a></li>
+            <li><a href="./projects.html" >Proyectos</a></li>
+            <li><a href="../pages/contact.html" class="active">Contactanos</a></li>
+            <label for="check" class="esconder-menu">&#215;</label>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- CONTENIDO contact -->
+    <main>
+      <section class="contact-section">
+        <div
+          class="contact-form-container"
+        >
+          <!-- Title -->
+          <h1 class="text-7xl font-medium drop-shadow-lg">Contactanos</h1>
+          <!-- Description -->
+          <p class="w-1/2 text-xl px-4">
+            ¡Contáctanos para soluciones de marketing y diseño! Estamos aquí para
+            ayudarte a destacar en el mercado
+          </p>
+          <!-- Form -->
+          <form class="flex flex-col py-4 px-8 rounded-lg w-1/2">
+            <!-- Name -->
+            <div class="mb-6 w-4/5 h-12 border-b-2 border-gray-400">
+              <input
+                type="email"
+                class="form-control text-light text-lg px-4 bg-dark w-full h-full"
+                id="correo"
+                placeholder="Ingresa tu Correo aqui..."
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <!-- Subject -->
+            <div class="mb-6 w-4/5 h-12 border-b-2 border-gray-400">
+              <input
+                type="text"
+                class="form-control text-light text-lg px-4 bg-dark w-full h-full"
+                id="asunto"
+                placeholder="Ingresa el Asunto aqui..."
+              />
+            </div>
+            <!-- Message -->
+            <div class="mb-8 w-4/5 h-12 border-b-2 border-gray-400">
+              <input
+                type="text"
+                class="form-control text-light text-lg px-4 bg-dark w-full h-full"
+                id="mensaje"
+                placeholder="Ingresa el Mensaje aqui..."
+              />
+            </div>
+            <!-- Send Button -->
+            <button
+              type="submit"
+              class="bg-[#2C2A1F] text-white w-1/2 h-10 rounded-lg"
+            >
+              Enviar
+            </button>
+          </form>
+        </div>
+        <!-- Contact Info -->
+        <div
+          class="contact-info-container"
+        >
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7953.4861573121825!2d-74.10708370826647!3d4.639857131951696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1692546958809!5m2!1ses-419!2sco" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+      
+    </main>
+    <!-- FOOTER -->
+    
+    <iframe src="../components/footer.html" width="99%" height="100%" style="margin: 0;"></iframe>
+  </body>
+</html>
